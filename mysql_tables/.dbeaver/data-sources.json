@@ -1,0 +1,44 @@
+{
+	"folders": {},
+	"connections": {
+		"dbeaver-sample-database-sqlite-1": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "DBeaver Sample Database (SQLite)",
+			"save-password": true,
+			"show-system-objects": true,
+			"configuration": {
+				"database": "/Users/dito/Library/DBeaverData/workspace6/.metadata/sample-database-sqlite-1/Chinook.db",
+				"url": "jdbc:sqlite:/Users/dito/Library/DBeaverData/workspace6/.metadata/sample-database-sqlite-1/Chinook.db",
+				"configurationType": "MANUAL",
+				"type": "dev"
+			}
+		},
+		"mysql8-188e8f87bbc-6730a7c2fa4f81b1": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "/usr/local/mysql-8.0.33-macos13-arm64",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
